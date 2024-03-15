@@ -23,20 +23,20 @@ public class Programa {
         double[] notas2 = new double[5];
 
         // Matriz com dados dos 5 alunes
-        String[][] dadosAlunes = new String[4][5];
+        String[][] dadosAlunos = new String[4][5];
 
         // Structs ou classes/objetos
 
-        Alune a1 = new Alune();
+        Aluno a1 = new Aluno();
         a1.matricula = "A";
         a1.nome = "nome1";
-        a1.nota1 = "5";
-        a1.nota2 = "8";
+        a1.nota1 = 5;
+        a1.nota2 = 8;
 
-        Alune a2 = new Alune();
-        Alune a3 = new Alune();
-        Alune a4 = new Alune();
-        Alune a5 = new Alune();
+        Aluno a2 = new Aluno();
+        Aluno a3 = new Aluno();
+        Aluno a4 = new Aluno();
+        Aluno a5 = new Aluno();
 
     }
 
