@@ -1,4 +1,5 @@
 
+// Classe que gera objetos
 public class Bike {
 
     public static String marca;
